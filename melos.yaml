@@ -1,0 +1,11 @@
+name: mdm_manage_engine_client_workspace
+ide:
+  intellij:
+    enabled: false
+packages:
+  - "."
+scripts:
+  fix:
+    exec: dart fix --apply
+  clean:
+    exec: flutter clean

@@ -2,7 +2,7 @@ name: "mdm_manage_engine_client"
 description: "Dart client api for communicating with the MDM Manage Engine private appstore."
 documentation: https://www.manageengine.com/mobile-device-management/api/
 version: 0.1.0
-publish_to: 'none' 
+publish_to: "none"
 
 environment:
   sdk: ^3.5.3
@@ -17,6 +17,4 @@ dev_dependencies:
   freezed: ^2.5.7
   json_serializable: ^6.8.0
   build_runner: ^2.4.13
-
-
-
+  melos: ^6.0.0
