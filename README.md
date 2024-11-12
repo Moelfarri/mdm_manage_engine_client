@@ -1,7 +1,8 @@
-# MDM Manage Engine Client 
+# MDM Manage Engine Client
 
-This package provides a Dart client for the Manage Engine MDM API. Check the official documentation for more information on how to use the API: https://www.manageengine.com/mobile-device-management/api/ 
+This package provides a Dart client for the Manage Engine MDM API. Check the official documentation for more information on how to use the API: https://www.manageengine.com/mobile-device-management/api/
 
+It is important to note that this package is not officially supported by Manage Engine, and I am not affiliated with them in any way. This package was created to help developers interact with the Manage Engine MDM API in Dart projects.
 
 ## Usage
 
@@ -33,4 +34,4 @@ void example() async {
 }
 ```
 
-    
+Many Request and Response DTOs still remain untested and may not work as expected. If you find any issues or experience any difficulties, please open an issue or a pull request.
