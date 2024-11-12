@@ -1,0 +1,19 @@
+// ignore_for_file: constant_identifier_names, invalid_annotation_target
+
+import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:mdm_manage_engine_client/mdm_manage_engine_client.dart';
+
+part 'remove_announcement_from_group_request_dto.freezed.dart';
+part 'remove_announcement_from_group_request_dto.g.dart';
+
+@freezed
+class RemoveAnnouncementFromGroupRequestDto extends MdmRequest
+    with _$RemoveAnnouncementFromGroupRequestDto {
+  factory RemoveAnnouncementFromGroupRequestDto({
+    @JsonKey(name: 'group_ids') List<String>? groupIds,
+  }) = _RemoveAnnouncementFromGroupRequestDto;
+
+  factory RemoveAnnouncementFromGroupRequestDto.fromJson(
+          Map<String, dynamic> json) =>
+      _$RemoveAnnouncementFromGroupRequestDtoFromJson(json);
+}
