@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+  <meta name="description" content="API docs for the GetDeviceDetailsResponseDto class from the get_device_details_response_dto library, for the Dart programming language.">
+  <title>GetDeviceDetailsResponseDto class - get_device_details_response_dto library - Dart API</title>
+
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../static-assets/github.css?v1">
+  <link rel="stylesheet" href="../static-assets/styles.css?v1">
+  <link rel="icon" href="../static-assets/favicon.png?v1">
+
+  
+</head>
+
+
+<body data-base-href="../" data-using-base-href="false" class="light-theme">
+
+<div id="overlay-under-drawer"></div>
+
+<header id="title">
+  <span id="sidenav-left-toggle" class="material-symbols-outlined" role="button" tabindex="0">menu</span>
+  <ol class="breadcrumbs gt-separated dark hidden-xs">
+    <li><a href="../index.html">mdm_manage_engine_client</a></li>
+    <li><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto-library.html">clients&#47;v1&#47;devices&#47;response_dtos&#47;get_device_details_response_dto&#47;get_device_details_response_dto.dart</a></li>
+    <li class="self-crumb">GetDeviceDetailsResponseDto class</li>
+  </ol>
+  <div class="self-name">GetDeviceDetailsResponseDto</div>
+  <form class="search navbar-right" role="search">
+    <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+  <div class="toggle" id="theme-button" title="Toggle brightness">
+    <label for="theme">
+      <input type="checkbox" id="theme" value="light-theme">
+      <span id="dark-theme-button" class="material-symbols-outlined">
+        dark_mode
+      </span>
+      <span id="light-theme-button" class="material-symbols-outlined">
+        light_mode
+      </span>
+    </label>
+  </div>
+</header>
+<main>
+
+<div
+    id="dartdoc-main-content"
+    class="main-content"
+    data-above-sidebar="clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto&#47;clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto-library-sidebar.html"
+    data-below-sidebar="clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto&#47;GetDeviceDetailsResponseDto-class-sidebar.html">
+    <div>
+<h1><span class="kind-class">GetDeviceDetailsResponseDto</span> class 
+ 
+</h1></div>
+
+    
+
+
+    <section>
+      <dl class="dl-horizontal">
+        
+  <dt>Inheritance</dt>
+  <dd>
+    <ul class="gt-separated dark clazz-relationships">
+      <li><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object-class.html">Object</a></li>
+        <li><a href="../models_mdm_object/MdmObject-class.html">MdmObject</a></li>
+        <li><a href="../models_mdm_response/MdmResponse-class.html">MdmResponse</a></li>
+      <li>GetDeviceDetailsResponseDto</li>
+    </ul>
+  </dd>
+
+        
+        
+
+
+
+        
+  <dt>Annotations</dt>
+  <dd>
+    <ul class="annotation-list clazz-relationships">
+        <li>@<a href="https://pub.dev/documentation/freezed_annotation/2.4.4/freezed_annotation/freezed-constant.html">freezed</a></li>
+    </ul>
+  </dd>
+
+
+      </dl>
+    </section>
+
+    
+  <section class="summary offset-anchor" id="constructors">
+    <h2>Constructors</h2>
+
+    <dl class="constructor-summary-list">
+        <dt id="GetDeviceDetailsResponseDto" class="callable">
+          <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/GetDeviceDetailsResponseDto.html">GetDeviceDetailsResponseDto</a></span><span class="signature">({<span class="parameter" id="-param-warrantyNumber"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;warranty_number&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">warrantyNumber</span>, </span><span class="parameter" id="-param-cellularTechnology"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;cellular_technology&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">cellularTechnology</span>, </span><span class="parameter" id="-param-usedDeviceSpace"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;used_device_space&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">usedDeviceSpace</span>, </span><span class="parameter" id="-param-isIosNativeAppRegistered"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_ios_native_app_registered&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isIosNativeAppRegistered</span>, </span><span class="parameter" id="-param-warrantyExpirationDate"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;warranty_expiration_date&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">warrantyExpirationDate</span>, </span><span class="parameter" id="-param-purchaseOrderNumber"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;purchase_order_number&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">purchaseOrderNumber</span>, </span><span class="parameter" id="-param-model"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;model&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">model</span>, </span><span class="parameter" id="-param-availableExternalCapacity"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;available_external_capacity&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">availableExternalCapacity</span>, </span><span class="parameter" id="-param-availableRamMemory"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;available_ram_memory&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">availableRamMemory</span>, </span><span class="parameter" id="-param-ownedBy"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;owned_by&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">ownedBy</span>, </span><span class="parameter" id="-param-warrantyType"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;warranty_type&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">warrantyType</span>, </span><span class="parameter" id="-param-modemFirmwareVersion"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;modem_firmware_version&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">modemFirmwareVersion</span>, </span><span class="parameter" id="-param-purchasePrice"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;purchase_price&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">purchasePrice</span>, </span><span class="parameter" id="-param-purchaseDate"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;purchase_date&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">purchaseDate</span>, </span><span class="parameter" id="-param-managedStatus"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;managed_status&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">managedStatus</span>, </span><span class="parameter" id="-param-networkUsage"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;network_usage&#39;)</span> <span class="type-annotation"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoNetworkUsage-class.html">GetDeviceDetailsResponseDtoNetworkUsage</a>?</span> <span class="parameter-name">networkUsage</span>, </span><span class="parameter" id="-param-sims"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;sims&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoSim-class.html">GetDeviceDetailsResponseDtoSim</a></span>&gt;</span>?</span> <span class="parameter-name">sims</span>, </span><span class="parameter" id="-param-externalCapacity"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;external_capacity&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">externalCapacity</span>, </span><span class="parameter" id="-param-knoxDetails"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;knox_details&#39;)</span> <span class="type-annotation"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoKnoxDetails-class.html">GetDeviceDetailsResponseDtoKnoxDetails</a>?</span> <span class="parameter-name">knoxDetails</span>, </span><span class="parameter" id="-param-assetOwner"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;asset_owner&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">assetOwner</span>, </span><span class="parameter" id="-param-apnPassword"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;apn_password&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">apnPassword</span>, </span><span class="parameter" id="-param-batteryLevel"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;battery_level&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">batteryLevel</span>, </span><span class="parameter" id="-param-isItunesAccountActive"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_itunes_account_active&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isItunesAccountActive</span>, </span><span class="parameter" id="-param-isSupervised"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_supervised&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isSupervised</span>, </span><span class="parameter" id="-param-serialNumber"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;serial_number&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">serialNumber</span>, </span><span class="parameter" id="-param-lastCloudBackupDate"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;last_cloud_backup_date&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">lastCloudBackupDate</span>, </span><span class="parameter" id="-param-agentVersionCode"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;agent_version_code&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">agentVersionCode</span>, </span><span class="parameter" id="-param-meid"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;meid&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">meid</span>, </span><span class="parameter" id="-param-isDndInEffect"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_dnd_in_effect&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isDndInEffect</span>, </span><span class="parameter" id="-param-office"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;office&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">office</span>, </span><span class="parameter" id="-param-apnUsername"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;apn_username&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">apnUsername</span>, </span><span class="parameter" id="-param-modelName"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;model_name&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">modelName</span>, </span><span class="parameter" id="-param-registeredTime"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;registered_time&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">registeredTime</span>, </span><span class="parameter" id="-param-purchaseType"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;purchase_type&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">purchaseType</span>, </span><span class="parameter" id="-param-assetTag"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;asset_tag&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">assetTag</span>, </span><span class="parameter" id="-param-isActivationLockEnabled"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_activation_lock_enabled&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isActivationLockEnabled</span>, </span><span class="parameter" id="-param-availableDeviceCapacity"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;available_device_capacity&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">availableDeviceCapacity</span>, </span><span class="parameter" id="-param-productName"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;product_name&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">productName</span>, </span><span class="parameter" id="-param-agentType"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;agent_type&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">agentType</span>, </span><span class="parameter" id="-param-isDeviceLocatorEnabled"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_device_locator_enabled&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isDeviceLocatorEnabled</span>, </span><span class="parameter" id="-param-deviceCapacity"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;device_capacity&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/double-class.html">double</a>?</span> <span class="parameter-name">deviceCapacity</span>, </span><span class="parameter" id="-param-addedTime"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;added_time&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">addedTime</span>, </span><span class="parameter" id="-param-easDeviceIdentifier"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;eas_device_identifier&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">easDeviceIdentifier</span>, </span><span class="parameter" id="-param-description"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;description&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">description</span>, </span><span class="parameter" id="-param-isLostModeEnabled"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_lost_mode_enabled&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isLostModeEnabled</span>, </span><span class="parameter" id="-param-network"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;network&#39;)</span> <span class="type-annotation"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoNetwork-class.html">GetDeviceDetailsResponseDtoNetwork</a>?</span> <span class="parameter-name">network</span>, </span><span class="parameter" id="-param-deviceName"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;device_name&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">deviceName</span>, </span><span class="parameter" id="-param-security"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;security&#39;)</span> <span class="type-annotation"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoSecurity-class.html">GetDeviceDetailsResponseDtoSecurity</a>?</span> <span class="parameter-name">security</span>, </span><span class="parameter" id="-param-udid"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;udid&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">udid</span>, </span><span class="parameter" id="-param-summary"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;summary&#39;)</span> <span class="type-annotation"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoSummary-class.html">GetDeviceDetailsResponseDtoSummary</a>?</span> <span class="parameter-name">summary</span>, </span><span class="parameter" id="-param-os"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;os&#39;)</span> <span class="type-annotation"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoOs-class.html">GetDeviceDetailsResponseDtoOs</a>?</span> <span class="parameter-name">os</span>, </span><span class="parameter" id="-param-isCloudBackupEnabled"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;is_cloud_backup_enabled&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span> <span class="parameter-name">isCloudBackupEnabled</span>, </span><span class="parameter" id="-param-modelType"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;model_type&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">modelType</span>, </span><span class="parameter" id="-param-modelId"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;model_id&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">modelId</span>, </span><span class="parameter" id="-param-totalRamMemory"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;total_ram_memory&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">totalRamMemory</span>, </span><span class="parameter" id="-param-usedExternalSpace"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;used_external_space&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">usedExternalSpace</span>, </span><span class="parameter" id="-param-remarks"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;remarks&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span> <span class="parameter-name">remarks</span>, </span><span class="parameter" id="-param-unregisteredTime"><span>@<a href="https://pub.dev/documentation/json_annotation/4.9.0/json_annotation/JsonKey-class.html">JsonKey</a>(name: &#39;unregistered_time&#39;)</span> <span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span> <span class="parameter-name">unregisteredTime</span></span>})</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+        <dt id="GetDeviceDetailsResponseDto.fromJson" class="callable">
+          <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/GetDeviceDetailsResponseDto.fromJson.html">GetDeviceDetailsResponseDto.fromJson</a></span><span class="signature">(<span class="parameter" id="fromJson-param-json"><span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span> <span class="parameter-name">json</span></span>)</span>
+        </dt>
+        <dd>
+          
+            <div class="constructor-modifier features">factory</div>
+        </dd>
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="instance-properties">
+    <h2>Properties</h2>
+    <dl class="properties">
+        <dt id="addedTime" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/addedTime.html">addedTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="agentType" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/agentType.html">agentType</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="agentVersionCode" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/agentVersionCode.html">agentVersionCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="apnPassword" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/apnPassword.html">apnPassword</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="apnUsername" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/apnUsername.html">apnUsername</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="assetOwner" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/assetOwner.html">assetOwner</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="assetTag" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/assetTag.html">assetTag</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="availableDeviceCapacity" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/availableDeviceCapacity.html">availableDeviceCapacity</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/double-class.html">double</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="availableExternalCapacity" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/availableExternalCapacity.html">availableExternalCapacity</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="availableRamMemory" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/availableRamMemory.html">availableRamMemory</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="batteryLevel" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/batteryLevel.html">batteryLevel</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="cellularTechnology" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/cellularTechnology.html">cellularTechnology</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="copyWith" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/copyWith.html">copyWith</a></span>
+  <span class="signature">&#8594; $GetDeviceDetailsResponseDtoCopyWith<span class="signature">&lt;<wbr><span class="type-parameter"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto-class.html">GetDeviceDetailsResponseDto</a></span>&gt;</span></span>
+  
+
+</dt>
+<dd class="inherited">
+  Create a copy of GetDeviceDetailsResponseDto
+with the given fields replaced by the non-null parameter values.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="description" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/description.html">description</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="deviceCapacity" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/deviceCapacity.html">deviceCapacity</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/double-class.html">double</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="deviceName" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/deviceName.html">deviceName</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="easDeviceIdentifier" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/easDeviceIdentifier.html">easDeviceIdentifier</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="externalCapacity" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/externalCapacity.html">externalCapacity</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="hashCode" class="property inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object/hashCode.html">hashCode</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  The hash code for this object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isActivationLockEnabled" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isActivationLockEnabled.html">isActivationLockEnabled</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isCloudBackupEnabled" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isCloudBackupEnabled.html">isCloudBackupEnabled</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isDeviceLocatorEnabled" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isDeviceLocatorEnabled.html">isDeviceLocatorEnabled</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isDndInEffect" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isDndInEffect.html">isDndInEffect</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isIosNativeAppRegistered" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isIosNativeAppRegistered.html">isIosNativeAppRegistered</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isItunesAccountActive" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isItunesAccountActive.html">isItunesAccountActive</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isLostModeEnabled" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isLostModeEnabled.html">isLostModeEnabled</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="isSupervised" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/isSupervised.html">isSupervised</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="knoxDetails" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/knoxDetails.html">knoxDetails</a></span>
+  <span class="signature">&#8594; <a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoKnoxDetails-class.html">GetDeviceDetailsResponseDtoKnoxDetails</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="lastCloudBackupDate" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/lastCloudBackupDate.html">lastCloudBackupDate</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="managedStatus" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/managedStatus.html">managedStatus</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="meid" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/meid.html">meid</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="model" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/model.html">model</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="modelId" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/modelId.html">modelId</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="modelName" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/modelName.html">modelName</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="modelType" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/modelType.html">modelType</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="modemFirmwareVersion" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/modemFirmwareVersion.html">modemFirmwareVersion</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="network" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/network.html">network</a></span>
+  <span class="signature">&#8594; <a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoNetwork-class.html">GetDeviceDetailsResponseDtoNetwork</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="networkUsage" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/networkUsage.html">networkUsage</a></span>
+  <span class="signature">&#8594; <a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoNetworkUsage-class.html">GetDeviceDetailsResponseDtoNetworkUsage</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="office" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/office.html">office</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="os" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/os.html">os</a></span>
+  <span class="signature">&#8594; <a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoOs-class.html">GetDeviceDetailsResponseDtoOs</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="ownedBy" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/ownedBy.html">ownedBy</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="productName" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/productName.html">productName</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="purchaseDate" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/purchaseDate.html">purchaseDate</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="purchaseOrderNumber" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/purchaseOrderNumber.html">purchaseOrderNumber</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="purchasePrice" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/purchasePrice.html">purchasePrice</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="purchaseType" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/purchaseType.html">purchaseType</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="registeredTime" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/registeredTime.html">registeredTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="remarks" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/remarks.html">remarks</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="runtimeType" class="property inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object/runtimeType.html">runtimeType</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/Type-class.html">Type</a></span>
+  
+
+</dt>
+<dd class="inherited">
+  A representation of the runtime type of the object.
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="security" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/security.html">security</a></span>
+  <span class="signature">&#8594; <a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoSecurity-class.html">GetDeviceDetailsResponseDtoSecurity</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="serialNumber" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/serialNumber.html">serialNumber</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="sims" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/sims.html">sims</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/List-class.html">List</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoSim-class.html">GetDeviceDetailsResponseDtoSim</a></span>&gt;</span>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="summary" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/summary.html">summary</a></span>
+  <span class="signature">&#8594; <a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDtoSummary-class.html">GetDeviceDetailsResponseDtoSummary</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="totalRamMemory" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/totalRamMemory.html">totalRamMemory</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="udid" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/udid.html">udid</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="unregisteredTime" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/unregisteredTime.html">unregisteredTime</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="usedDeviceSpace" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/usedDeviceSpace.html">usedDeviceSpace</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/double-class.html">double</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="usedExternalSpace" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/usedExternalSpace.html">usedExternalSpace</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="warrantyExpirationDate" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/warrantyExpirationDate.html">warrantyExpirationDate</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/int-class.html">int</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="warrantyNumber" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/warrantyNumber.html">warrantyNumber</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="warrantyType" class="property inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/warrantyType.html">warrantyType</a></span>
+  <span class="signature">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a>?</span>
+  
+
+</dt>
+<dd class="inherited">
+  
+  <div class="features"><span class="feature">no setter</span><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="instance-methods">
+    <h2>Methods</h2>
+    <dl class="callables">
+        <dt id="noSuchMethod" class="callable inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object/noSuchMethod.html">noSuchMethod</a></span><span class="signature">(<wbr><span class="parameter" id="noSuchMethod-param-invocation"><span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Invocation-class.html">Invocation</a></span> <span class="parameter-name">invocation</span></span>)
+    <span class="returntype parameter">&#8594; dynamic</span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Invoked when a nonexistent method or property is accessed.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toJson" class="callable inherited">
+  <span class="name"><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/GetDeviceDetailsResponseDto/toJson.html">toJson</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/Map-class.html">Map</a><span class="signature">&lt;<wbr><span class="type-parameter"><a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a></span>, <span class="type-parameter">dynamic</span>&gt;</span></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  Serializes this GetDeviceDetailsResponseDto to a JSON map.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+        <dt id="toString" class="callable inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object/toString.html">toString</a></span><span class="signature">(<wbr>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/String-class.html">String</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  A string representation of this object.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+  <section
+      class="summary offset-anchor inherited"
+      id="operators">
+    <h2>Operators</h2>
+    <dl class="callables">
+        <dt id="operator ==" class="callable inherited">
+  <span class="name"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object/operator_equals.html">operator ==</a></span><span class="signature">(<wbr><span class="parameter" id="==-param-other"><span class="type-annotation"><a href="https://api.dart.dev/stable/3.5.3/dart-core/Object-class.html">Object</a></span> <span class="parameter-name">other</span></span>)
+    <span class="returntype parameter">&#8594; <a href="https://api.dart.dev/stable/3.5.3/dart-core/bool-class.html">bool</a></span>
+  </span>
+  
+
+</dt>
+<dd class="inherited">
+  The equality operator.
+  <div class="features"><span class="feature">inherited</span></div>
+
+</dd>
+
+    </dl>
+  </section>
+    
+    
+    
+
+
+  </div> <!-- /.main-content -->
+
+  <div id="dartdoc-sidebar-left" class="sidebar sidebar-offcanvas-left">
+    <!-- The search input and breadcrumbs below are only responsively visible at low resolutions. -->
+<header id="header-search-sidebar" class="hidden-l">
+  <form class="search-sidebar" role="search">
+    <input type="text" id="search-sidebar" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
+  </form>
+</header>
+
+<ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
+    <li><a href="../index.html">mdm_manage_engine_client</a></li>
+    <li><a href="../clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto/clients_v1_devices_response_dtos_get_device_details_response_dto_get_device_details_response_dto-library.html">get_device_details_response_dto</a></li>
+    <li class="self-crumb">GetDeviceDetailsResponseDto class</li>
+</ol>
+
+
+    <h5>get_device_details_response_dto library</h5>
+    <div id="dartdoc-sidebar-left-content"></div>
+  </div>
+
+  <div id="dartdoc-sidebar-right" class="sidebar sidebar-offcanvas-right">
+  </div><!--/.sidebar-offcanvas-->
+
+</main>
+
+<footer>
+  <span class="no-break">
+    mdm_manage_engine_client
+      0.1.0
+  </span>
+
+  
+</footer>
+
+
+
+<script src="../static-assets/highlight.pack.js?v1"></script>
+<script src="../static-assets/docs.dart.js"></script>
+
+
+
+</body>
+
+</html>
+

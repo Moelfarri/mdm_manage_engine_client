@@ -1,8 +1,13 @@
 name: "mdm_manage_engine_client"
 description: "Dart client api for communicating with the MDM Manage Engine private appstore."
 documentation: https://www.manageengine.com/mobile-device-management/api/
+homepage: https://github.com/Moelfarri/mdm_manage_engine_client
+repository: https://github.com/Moelfarri/mdm_manage_engine_client
+issue_tracker: https://github.com/Moelfarri/mdm_manage_engine_client/issues
+screenshots:
+  - description: The 25th frame package logo.
+    path: assets/manage_engine_logo.jpg
 version: 0.1.0
-publish_to: "none"
 
 environment:
   sdk: ^3.5.3
